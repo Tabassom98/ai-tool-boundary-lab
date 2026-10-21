@@ -27,4 +27,4 @@ In a real system, the allowlist must come from authenticated server-side access 
 
 Eight matching decisions show that this gate follows its specified policy on these examples. They do not show that an LLM resisted injection or that an application is secure. An allowed read can still expose malicious content, and harmful instructions could still affect the final answer. Content safety, answer integrity, output handling, and data leakage through permitted channels remain separate concerns.
 
-See `docs/threat-model.md` for assumptions and `docs/experiments.md` for a path toward actual model evaluations. AI-assisted educational starter with invented documents and identifiers. No real-world exploitation, production deployment, or research achievement is claimed. MIT licensed.
+See `docs/threat-model.md` for assumptions and `docs/experiments.md` for a path toward actual model evaluations. Educational project with invented documents and identifiers. No real-world exploitation, production deployment, or research achievement is claimed. MIT licensed.

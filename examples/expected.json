@@ -1,0 +1,55 @@
+{
+  "evaluator": "deterministic-authorization-v1",
+  "total": 8,
+  "passed": 8,
+  "results": [
+    {
+      "id": "benign-read",
+      "allowed": true,
+      "expected_allowed": true,
+      "passed": true
+    },
+    {
+      "id": "out-of-scope",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "exfiltration",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "private-read",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "extra-destination",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "claimed-admin",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "malformed",
+      "allowed": false,
+      "expected_allowed": false,
+      "passed": true
+    },
+    {
+      "id": "quoted-attack",
+      "allowed": true,
+      "expected_allowed": true,
+      "passed": true
+    }
+  ]
+}
